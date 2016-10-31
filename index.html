@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="normalize.css" rel="styleSheet">
+    <link href="style.css" rel="styleSheet">
+    <script src="script.js"></script>
+  </head>
+  <body><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0" height="0" style="position:absolute"><symbol id="compass" viewBox="0 0 32 32">
+    <path d="M16 0C7.163 0 0 7.163 0 16s7.163 16 16 16 16-7.163 16-16S24.837 0 16 0zM3 16C3 8.82 8.82 3 16 3c3.424 0 6.538 1.325 8.86 3.488L12 12 6.488 24.86A12.952 12.952 0 0 1 3 16zm15.286 2.286l-8.003 3.43 3.43-8.003 4.573 4.573zM16 29a12.955 12.955 0 0 1-8.86-3.488L20 20l5.512-12.86A12.952 12.952 0 0 1 29 16c0 7.18-5.82 13-13 13z"/>
+</symbol><symbol id="envelop" viewBox="0 0 32 32">
+    <path d="M29 4H3C1.35 4 0 5.35 0 7v20c0 1.65 1.35 3 3 3h26c1.65 0 3-1.35 3-3V7c0-1.65-1.35-3-3-3zM12.461 17.199L4 23.789V8.113l8.461 9.086zM5.512 8h20.976L16 15.875 5.512 8zm7.278 9.553L16 21l3.21-3.447L25.79 26H6.211l6.58-8.447zm6.749-.354L28 8.113v15.676l-8.461-6.59z"/>
+</symbol><symbol id="location" viewBox="0 0 32 32">
+    <path d="M16 0C10.477 0 6 4.477 6 10c0 10 10 22 10 22s10-12 10-22c0-5.523-4.477-10-10-10zm0 16.125a6.125 6.125 0 1 1 0-12.25 6.125 6.125 0 0 1 0 12.25zM12.125 10a3.875 3.875 0 1 1 7.75 0 3.875 3.875 0 0 1-7.75 0z"/>
+</symbol><symbol id="phone" viewBox="0 0 32 32">
+    <path d="M22 20c-2 2-2 4-4 4s-4-2-6-4-4-4-4-6 2-2 4-4-4-8-6-8-6 6-6 6c0 4 4.109 12.109 8 16s12 8 16 8c0 0 6-4 6-6s-6-8-8-6z"/>
+</symbol></svg>
+    <header>
+      <div class="headerTopPanel">
+        <div class="headerTopPanel_wrapper">
+          <div class="headerTopPanel_phone">
+            <div class="headerTopPanel_phoneIcon">
+                  <svg class="phone">
+                    <use xlink:href="#phone"></use>
+                  </svg>
+            </div><a href="tel:1 800 456 7890" class="headerTopPanel_phoneInfo">1 800 456 7890</a>
+          </div>
+          <div class="headerTopPanel_address">
+            <div class="headerTopPanel_addressIcon">
+                  <svg class="location">
+                    <use xlink:href="#location"></use>
+                  </svg>
+            </div><span class="headerTopPanel_addressInfo">123, New Lenox Chicago, IL 60606</span>
+          </div>
+        </div>
+      </div>
+      <div class="headerBottomPanel">
+        <div class="headerBottomPanel_wrapper"><a href="index.html" class="headerBottomPanel_logo"><span class="headerBottomPanel_logoText">Лен<span>Сто</span></span></a>
+          <div class="headerBottomPanel_menu">
+            <li class="headerBottomPanel_menuList">
+              <ul class="headerBottomPanel_menuItem"><a href="index.html" class="headerBottomPanel_menuLink headerBottomPanel_menuLink_a">ГЛАВНАЯ</a></ul>
+              <ul class="headerBottomPanel_menuItem"><a href="about.html" class="headerBottomPanel_menuLink">О КОМПАНИИ</a></ul>
+              <ul class="headerBottomPanel_menuItem"><a href="services.html" class="headerBottomPanel_menuLink">УСЛУГИ</a></ul>
+              <ul class="headerBottomPanel_menuItem"><a href="pricing.html" class="headerBottomPanel_menuLink">ПРАЙС</a></ul>
+              <ul class="headerBottomPanel_menuItem"><a href="contacts.html" class="headerBottomPanel_menuLink">КОНТАКТЫ</a></ul>
+            </li>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="placeholder">
+      <div class="placeholder_wrapper"><span class="placeholder_text">Лучшие цены на кровельные работы !!!</span><br><a href="contacts.html" class="placeholder_button">ОСТАВИТЬ ЗАПРОС</a></div>
+    </section>
+    <section class="advantages">
+      <div class="advantages_wrapper">
+        <div class="advantages_item">
+          <div class="advantages_number">1</div>
+          <div class="advantages_text"><span class="advantages_title">Консультация</span><br><span class="advantages_subline">Наши специалисты всегда готовы ответить на ваши вопросы</span></div>
+        </div>
+        <div class="advantages_item">
+          <div class="advantages_number">2</div>
+          <div class="advantages_text"><span class="advantages_title">Квалифицированные рабочие</span><br><span class="advantages_subline">Более 700 выполненных объектов</span></div>
+        </div>
+        <div class="advantages_item">
+          <div class="advantages_number">3</div>
+          <div class="advantages_text"><span class="advantages_title">Гарантия 3 года</span><br><span class="advantages_subline">Гарантия качества выполненных работ</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="mainServices">
+      <div class="mainServices_wrapper">
+        <h2 class="mainServices_title">Наши услуги</h2>
+        <li class="mainServices_list">
+          <ul class="mainServices_item"><img src="img/mainServicesImg_1.png" width="79" height="79" class="mainServices_itemImg">
+            <div class="mainServices_itemTextWrapper"><span class="mainServices_itemText">Фасадные работы</span><br><a href="services.html" class="mainServices_itemLink">Подробнее</a></div>
+          </ul>
+          <ul class="mainServices_item"><img src="img/mainServicesImg_2.png" width="79" height="79" class="mainServices_itemImg">
+            <div class="mainServices_itemTextWrapper"><span class="mainServices_itemText">Ремонт квартир</span><br><a href="services-1.html" class="mainServices_itemLink">Подробнее</a></div>
+          </ul>
+          <ul class="mainServices_item"><img src="img/mainServicesImg_3.png" width="79" height="79" class="mainServices_itemImg">
+            <div class="mainServices_itemTextWrapper"><span class="mainServices_itemText">Монтаж сайдинга</span><br><a href="services-2.html" class="mainServices_itemLink">Подробнее</a></div>
+          </ul>
+          <ul class="mainServices_item"><img src="img/mainServicesImg_4.png" width="79" height="79" class="mainServices_itemImg">
+            <div class="mainServices_itemTextWrapper"><span class="mainServices_itemText">Водосточные системы</span><br><a href="services-3.html" class="mainServices_itemLink">Подробнее</a></div>
+          </ul>
+          <ul class="mainServices_item"><img src="img/mainServicesImg_5.png" width="79" height="79" class="mainServices_itemImg">
+            <div class="mainServices_itemTextWrapper"><span class="mainServices_itemText">Ремонт швов</span><br><a href="services-4.html" class="mainServices_itemLink">Подробнее</a></div>
+          </ul>
+          <ul class="mainServices_item"><img src="img/mainServicesImg_6.png" width="79" height="79" class="mainServices_itemImg">
+            <div class="mainServices_itemTextWrapper"><span class="mainServices_itemText">Отделка офисов</span><br><a href="services-5.html" class="mainServices_itemLink">Подробнее</a></div>
+          </ul>
+        </li>
+      </div>
+    </section>
+    <section class="mainRequest">
+      <div class="mainRequest_wrapper">
+        <div class="mainRequestInfo">
+          <h2 class="mainRequestInfo_title">Работаем с 1997 года</h2><br><span class="mainRequestInfo_subline">Более 700 выполненных объектов</span>
+          <p class="mainRequestInfo_text">
+            Кровельные работы всех видов и ремонт
+            кровли – это основные направления деятельности
+            компании "Монолит". Уже более 17 лет мы
+            выполняем работы по любым типам кровли,
+            используя весь спектр современных кровельных
+            материалов. Высокие темпы строительства
+            обуславливают устойчивый спрос на кровельные
+            работы в наши дни.
+          </p>
+        </div>
+        <div class="mainRequestPost">
+          <div class="mainRequestPost_wrapper">
+            <h2 class="mainRequestPost_title">Форма обратной связи</h2>
+            <form action="https://getsimpleform.com/messages?form_api_token=7270ac727af0194961cbb0afe725ddf4" method="post" id="contactForm" class="mainRequestPost_form">
+              <input name="name" id="userName" placeholder="Имя *" required class="mainRequestPost_formUserName">
+              <input name="userMail" id="userMail" placeholder="E-mail *" required class="mainRequestPost_formUserMail">
+              <textarea name="message" id="message" placeholder="Сообщение" class="mainRequestPost_formMessage"></textarea>
+              <button id="submit" class="mainRequestPost_formButton">Отправить</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer_wrapper">
+        <div class="footer_info"><span class="footer_infoText">footer info Text footer infoText</span><a href="#" class="footer_infoLink">footer infoLink</a></div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="normalize.css" rel="styleSheet">
+    <link href="style.css" rel="styleSheet">
+    <script src="script.js"></script>
+  </head>
+  <body><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0" height="0" style="position:absolute"><symbol id="compass" viewBox="0 0 32 32">
+    <path d="M16 0C7.163 0 0 7.163 0 16s7.163 16 16 16 16-7.163 16-16S24.837 0 16 0zM3 16C3 8.82 8.82 3 16 3c3.424 0 6.538 1.325 8.86 3.488L12 12 6.488 24.86A12.952 12.952 0 0 1 3 16zm15.286 2.286l-8.003 3.43 3.43-8.003 4.573 4.573zM16 29a12.955 12.955 0 0 1-8.86-3.488L20 20l5.512-12.86A12.952 12.952 0 0 1 29 16c0 7.18-5.82 13-13 13z"/>
+</symbol><symbol id="envelop" viewBox="0 0 32 32">
+    <path d="M29 4H3C1.35 4 0 5.35 0 7v20c0 1.65 1.35 3 3 3h26c1.65 0 3-1.35 3-3V7c0-1.65-1.35-3-3-3zM12.461 17.199L4 23.789V8.113l8.461 9.086zM5.512 8h20.976L16 15.875 5.512 8zm7.278 9.553L16 21l3.21-3.447L25.79 26H6.211l6.58-8.447zm6.749-.354L28 8.113v15.676l-8.461-6.59z"/>
+</symbol><symbol id="location" viewBox="0 0 32 32">
+    <path d="M16 0C10.477 0 6 4.477 6 10c0 10 10 22 10 22s10-12 10-22c0-5.523-4.477-10-10-10zm0 16.125a6.125 6.125 0 1 1 0-12.25 6.125 6.125 0 0 1 0 12.25zM12.125 10a3.875 3.875 0 1 1 7.75 0 3.875 3.875 0 0 1-7.75 0z"/>
+</symbol><symbol id="phone" viewBox="0 0 32 32">
+    <path d="M22 20c-2 2-2 4-4 4s-4-2-6-4-4-4-4-6 2-2 4-4-4-8-6-8-6 6-6 6c0 4 4.109 12.109 8 16s12 8 16 8c0 0 6-4 6-6s-6-8-8-6z"/>
+</symbol></svg>
+    <header>
+      <div class="headerTopPanel">
+        <div class="headerTopPanel_wrapper">
+          <div class="headerTopPanel_phone">
+            <div class="headerTopPanel_phoneIcon">
+                  <svg class="phone">
+                    <use xlink:href="#phone"></use>
+                  </svg>
+            </div><a href="tel:1 800 456 7890" class="headerTopPanel_phoneInfo">1 800 456 7890</a>
+          </div>
+          <div class="headerTopPanel_address">
+            <div class="headerTopPanel_addressIcon">
+                  <svg class="location">
+                    <use xlink:href="#location"></use>
+                  </svg>
+            </div><span class="headerTopPanel_addressInfo">123, New Lenox Chicago, IL 60606</span>
+          </div>
+        </div>
+      </div>
+      <div class="headerBottomPanel">
+        <div class="headerBottomPanel_wrapper"><a href="index.html" class="headerBottomPanel_logo"><span class="headerBottomPanel_logoText">Лен<span>Сто</span></span></a>
+          <div class="headerBottomPanel_menu">
+            <li class="headerBottomPanel_menuList">
+              <ul class="headerBottomPanel_menuItem"><a href="index.html" class="headerBottomPanel_menuLink">ГЛАВНАЯ</a></ul>
+              <ul class="headerBottomPanel_menuItem"><a href="about.html" class="headerBottomPanel_menuLink">О КОМПАНИИ</a></ul>
+              <ul class="headerBottomPanel_menuItem"><a href="services.html" class="headerBottomPanel_menuLink">УСЛУГИ</a></ul>
+              <ul class="headerBottomPanel_menuItem"><a href="pricing.html" class="headerBottomPanel_menuLink">ПРАЙС</a></ul>
+              <ul class="headerBottomPanel_menuItem"><a href="contacts.html" class="headerBottomPanel_menuLink headerBottomPanel_menuLink_a">КОНТАКТЫ</a></ul>
+            </li>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
